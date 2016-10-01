@@ -1,0 +1,19 @@
+﻿Build started 9/30/2016 7:48:41 PM.
+     1>Project "C:\Users\Justice\Documents\GitHub\CS273\HW3\EX_03\EX_03\EX_03.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp readInt.cpp
+         readInt.cpp
+     1>c:\users\justice\documents\github\cs273\hw3\ex_03\ex_03\readint.cpp(23): warning C4101: 'er' : unreferenced local variable
+     1>c:\users\justice\documents\github\cs273\hw3\ex_03\ex_03\readint.cpp(28): warning C4101: 'ex' : unreferenced local variable
+         Main.cpp
+     1>c:\users\justice\documents\github\cs273\hw3\ex_03\ex_03\main.cpp(21): warning C4101: 'e' : unreferenced local variable
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Justice\Documents\GitHub\CS273\HW3\EX_03\Debug\EX_03.lib" /NOLOGO Debug\Main.obj
+         Debug\readInt.obj
+         EX_03.vcxproj -> C:\Users\Justice\Documents\GitHub\CS273\HW3\EX_03\Debug\EX_03.lib
+     1>Done Building Project "C:\Users\Justice\Documents\GitHub\CS273\HW3\EX_03\EX_03\EX_03.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31
