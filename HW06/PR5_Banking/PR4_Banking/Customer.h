@@ -1,6 +1,7 @@
 #ifndef CUSTOMER_H_
 #define CUSTOMER_H_
 #include <string>
+#include <vector>
 
 /**
 The Bank has Customers.  Each Customer has a name, address, age, and telephone number.
@@ -24,6 +25,8 @@ private:
 	const double check_interest = 1.4;
 	const double check_charge = 35;
 	const double overdraft_penalty = 50;
+	std::vector <int> accounts;
+
 public:
 	Customer() {
 		name = "";
@@ -50,6 +53,8 @@ public:
 
 	void setCustomerNumber(int newNumber) { customer_number = newNumber; }
 
+	void addAccountNumber(int newAccount) { accounts.push_back(newAccount); }
+
 	std::string getName() { return name; }
 
 	std::string getAddress() { return address; }
@@ -59,6 +64,8 @@ public:
 	std::string getPhoneNumber() { return phone_number; }
 
 	int getCustomerNumber() { return customer_number; }
+
+	std::vector<int> getAccounts() { return accounts; }
 
 	virtual double getSavingsInterest() { return savings_interest; }
 
@@ -119,7 +126,7 @@ public:
 	Student() : Customer() {}
 
 	Student(std::string Name, std::string Address, int Age, std::string PhoneNumber, int CustomerNumber) :
-		Customer(Name, Address, Age, PhoneNumber, CustomerNumber) {} 
+		Customer(Name, Address, Age, PhoneNumber, CustomerNumber) {}
 
 	double getSavingsInterest() { return savings_interest; }
 

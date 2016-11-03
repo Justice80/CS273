@@ -38,10 +38,9 @@ private:
 		// FIXME: Find all the accounts belonging to a customer name and add it to the vector of account numbers.
 		for (int i = 0; i < customers.size(); i++) {
 			Customer * customer = customers[i];
-			for (int j = 0; j < accounts.size(); j++)
-			{
-				if (customer->getName() == name)
-					user_accounts.push_back(accounts[j]->get_account());
+			if (customer->getName() == name) {
+				user_accounts = customer->getAccounts();
+				return user_accounts;
 			}
 		}
 
@@ -81,7 +80,9 @@ private:
 			acct = new CheckingAccount(cust, account_id);
 
 		accounts.push_back(acct);
+		cust->addAccountNumber(account_id);
 		account_id++;
+
 		return acct;
 	}
 
