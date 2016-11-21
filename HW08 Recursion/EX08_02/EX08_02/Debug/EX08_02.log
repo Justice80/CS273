@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\justice martinez\desktop\majorclasses\cs\fall 16\data structures\zips\recursion homework\recursiontutorials\ex8_2\source.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\justice martinez\desktop\majorclasses\cs\fall 16\data structures\zips\recursion homework\recursiontutorials\ex8_2\source.cpp(65): warning C4018: '<': signed/unsigned mismatch
+  EX08_02.vcxproj -> C:\Users\Justice Martinez\Desktop\MajorClasses\CS\Fall 16\Data Structures\HW\HW8\EX08_02\Debug\EX08_02.exe
+  EX08_02.vcxproj -> C:\Users\Justice Martinez\Desktop\MajorClasses\CS\Fall 16\Data Structures\HW\HW8\EX08_02\Debug\EX08_02.pdb (Full PDB)
