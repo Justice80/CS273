@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\justice martinez\desktop\majorclasses\cs\fall 16\data structures\exams\cs273exam2\exam2\source.cpp(36): error C2248: 'BirthdayParty::BirthdayParty': cannot access private member declared in class 'BirthdayParty'
+  c:\users\justice martinez\desktop\majorclasses\cs\fall 16\data structures\exams\cs273exam2\exam2\birthdayparty.h(21): note: see declaration of 'BirthdayParty::BirthdayParty'
+  c:\users\justice martinez\desktop\majorclasses\cs\fall 16\data structures\exams\cs273exam2\exam2\birthdayparty.h(16): note: see declaration of 'BirthdayParty'
+  DinnerPartyTicket.cpp
+  BirthdayPartyTicket.cpp
+  Generating Code...
