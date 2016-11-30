@@ -33,4 +33,5 @@ int main() // PLEASE DO NOT MODIFY THE MAIN FUNCTION
 	myparty->list(); // List the people left in the dinner party
 	cout << endl;
 
+	delete[] myparty;
 }

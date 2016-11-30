@@ -45,9 +45,8 @@ public:
 	* List all the persons currently in the party
 	*/
 	void list() {
-
 		for (std::list<std::string>::iterator it = room.begin(); it != room.end(); it++) {
-			std::cout << *it;
+			std::cout << *it << " ";
 		}
 	}
 
