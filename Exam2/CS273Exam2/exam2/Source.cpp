@@ -4,6 +4,16 @@
 *
 * @authors Everyone!
 */
+
+/*
+Dinner Party add, list, remove          28/30 -- need try/catch for push_front
+BirthdayParty                           18/20 -- you don't need to find the iterator in remove(). You already have the iterator.
+BirthdayPartyTicket                     20/20
+PartyFactory::factory                   10/10
+Well-designed and commented code        20/20
+
+TOTAL                                   96/100
+*/
 #include <iostream>
 #include <string>
 #include "Party.h"
